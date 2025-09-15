@@ -1,0 +1,122 @@
+/* || Tips::
+        1. This is a comment in CSS.
+        2. Animations exist (@keyframes), and a good practice is to always copy and paste one found on the internet.
+        3. You can put "body" in the html block if needed. This site has a global style, so it was omitted.
+*/
+
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* || Layout Responsiveness */
+@media screen and (max-width:992px) {
+    body {
+        background-color: red
+    }
+}
+
+@media screen and (max-width:600px) {
+    body{
+        background-color: rgb(0, 255, 0)
+    }
+}
+
+@media screen and (max-height:200px) {
+    body {
+        background-color: rgb(0, 0, 255);
+    }
+}
+
+/* || Site Elements */
+h1, h2 {
+    text-transform: uppercase;
+}
+
+h3, h4 {
+    text-transform: capitalize;
+}
+
+h4 {
+    color:rgb(65, 65, 65)
+}
+
+h1 {
+    color: black;
+    font-size: 40px;
+    transition: .3s ease all;
+}
+
+h1:hover {
+    transform: skew(-50deg);
+    transition: .3s ease all;
+    animation: rainbow 5s linear ;
+	animation-iteration-count: infinite;
+}
+
+@keyframes rainbow{
+		100%,0%{
+			color: rgb(255,0,0);
+		}
+		8%{
+			color: rgb(255,127,0);
+		}
+		16%{
+			color: rgb(255,255,0);
+		}
+		25%{
+			color: rgb(127,255,0);
+		}
+		33%{
+			color: rgb(0,255,0);
+		}
+		41%{
+			color: rgb(0,255,127);
+		}
+		50%{
+			color: rgb(0,255,255);
+		}
+		58%{
+			color: rgb(0,127,255);
+		}
+		66%{
+			color: rgb(0,0,255);
+		}
+		75%{
+			color: rgb(127,0,255);
+		}
+		83%{
+			color: rgb(255,0,255);
+		}
+		91%{
+			color: rgb(255,0,127);
+		}
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: rgb(65, 65, 65);
+    color: white;
+    display: block;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: .3s ease all;
+}
+
+button:hover {
+    background-color: gray;
+    transform: skew(-30deg);
+    transition: .3s ease all;
+}
+
+footer > p {
+    font-style: italic;
+    text-align: center;
+}
