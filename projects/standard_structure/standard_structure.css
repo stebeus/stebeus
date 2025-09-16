@@ -1,0 +1,119 @@
+* {
+  display: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  margin: 0;
+  min-height: 100vh;
+  background-color: gainsboro;
+  font-family: sans-serif;
+} */
+
+body {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  /* Fallback for browsers that don't support dvh */
+  min-height: 100vh;
+  min-height: 100dvh;
+  background-color: gainsboro;
+  font-family: sans-serif;
+}
+
+
+/* body {
+  min-height: 100vh;
+  margin: 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+} */
+
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header Nav Menu */
+
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 35px;
+  background-color: white
+}
+
+header ul li {
+  display: inline;
+  justify-content: left;
+}
+
+header ul li a {
+  color: rgb(0, 0, 0);
+}
+
+/* Main Content */
+
+.site-layout { 
+  padding: 25px 0
+}
+
+main {
+  margin: 0 auto;
+  width: 65%;
+  min-height: 65vh;
+  padding: 25px 75px;
+  background-color: white;
+}
+
+main h1 {
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+main section {
+  margin: 0 auto;
+  max-width: 75%;
+  padding-bottom: 25px;
+}
+
+main section h2, h3 {
+  padding-bottom: 10px;
+}
+
+main section p {
+  padding-bottom: 15px;
+  line-height: 1.5;
+}
+
+/* Footer */
+
+footer {
+  width: 100%;
+  background-color: white;
+}
+
+footer .footer-links-column {
+  display: flex;
+  justify-content: center;
+}
+
+footer .footer-socials-row ul li {
+  display: inline;
+  justify-content: left;
+}
+
