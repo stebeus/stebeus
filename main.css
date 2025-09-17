@@ -54,7 +54,14 @@ header ul li a {
 /* Main Content*/
 
 .default-layout {
-
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+  width: 80%;
+  height: 100%;
+  padding: 0 25px;
+  background-color: white;
 }
 
 .default-layout h1 {
