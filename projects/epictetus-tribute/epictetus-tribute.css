@@ -77,12 +77,11 @@ header ul li {
 }
 
 header ul li a {
-  color: #6b6b6b;
-  text-decoration: none;
+  color: #7a7a7a;
 }
 
 header ul li a:hover {
-  color: #e20000;
+  color: #191919;
   text-decoration: underline;
 }
 
