@@ -8,6 +8,11 @@ body {
   padding: 25px;
 }
 
+header {
+  border-bottom: #0a0a0a;
+  display: inline;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -95,4 +100,9 @@ img {
   width: 75%;
   height: auto;
   border-radius: 5px;
+}
+
+footer {
+  background-color: black;
+  color: white;
 }
