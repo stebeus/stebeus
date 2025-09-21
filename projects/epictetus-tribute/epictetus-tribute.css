@@ -4,7 +4,8 @@
 }
 
 body {
-  background-color: #f5f5f5;
+  background-color: #f0f0f0;
+  padding: 25px;
 }
 
 main {
@@ -15,11 +16,42 @@ main {
   padding: 25px;
   background-color: #fff;
   line-height: 1.5;
+  border-radius: 5px;
+}
+
+h1,
+h2 {
+  font-family: Merriweather Seriff
+}
+
+
+h1,
+h2,
+h3 {
+  color: #0a0a0a;
+}
+
+p,
+h3,
+ul {
+  font-family: Merriweather Sans;
 }
 
 h1,
 .h1-subtitle {
   text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+h2 {
+  text-transform: capitalize;
+}
+
+.h1-subtitle {
+  font-style: italic;
 }
 
 h2,
@@ -29,14 +61,38 @@ ul {
   margin-bottom: 15px;
 }
 
+p,
+ul {
+  color: #333;
+  font-weight: 300;
+}
+
+a {
+  color: #3057aa;
+}
+
+a:hover {
+  color: #76a6ff;
+}
+
+li::marker {
+  color: #c0c0c0;
+}
+
+main ul {
+  margin-left: 35px;
+}
+
 figure {
   display: flex;
   justify-content: center;
   margin-bottom: 25px;
+
 }
 
 img {
   margin: 0 auto;
   width: 75%;
-  height: auto
+  height: auto;
+  border-radius: 5px;
 }
