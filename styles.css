@@ -80,7 +80,6 @@ header nav {
   margin: 0 25px;
 }
 
-
 header nav ul li {
   display: inline;
   justify-content: center;
@@ -109,7 +108,6 @@ main figure {
   display: flex;
   justify-content: center;
   margin-bottom: 25px;
-
 }
 
 main .img-philospher {
