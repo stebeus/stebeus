@@ -84,27 +84,23 @@ main {
   background-color: white;
 }
 
-main ul {
-  margin-left: 25px;
-}
-
-
-
-
-figure {
+main figure {
   display: flex;
   justify-content: center;
   margin-bottom: 25px;
 
 }
 
-img {
+main img {
   margin: 0 auto;
   width: 75%;
   height: auto;
   border-radius: 5px;
 }
 
+main ul {
+  margin-left: 25px;
+}
 
 /* Footer */
 
