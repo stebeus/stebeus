@@ -8,7 +8,7 @@ body {
   flex-direction: column;
   min-width: 100vh;
   color: #242424;
-  font-family: Merriweather Sans;
+  font-family: Merriweather Sans, Verdana, Arial, sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 150%;
@@ -17,7 +17,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: Merriweather Seriff;
+  font-family: Merriweather Seriff, Georgia, 'Times New Roman', Times, serif;
 }
 
 h1,
