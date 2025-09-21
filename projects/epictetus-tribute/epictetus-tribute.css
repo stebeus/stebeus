@@ -14,8 +14,10 @@ body {
 
 h1,
 h2,
-h3 {
-  color: #0a0a0a;
+h3,
+p,
+li {
+  color: #242424;
 }
 
 h1,
@@ -51,16 +53,19 @@ li {
 
 p,
 ul {
-  color: #333;
   font-weight: 300;
 }
 
 a {
-  color: #3057aa;
+  color: #00e;
+}
+
+a:visited {
+  color: #551a8b;
 }
 
 a:hover {
-  color: #76a6ff;
+  color: #06e;
 }
 
 /* Header */
@@ -94,7 +99,7 @@ main ul {
 
 
 li::marker {
-  color: #c0c0c0;
+  color: #ccc;
 }
 
 figure {
@@ -115,6 +120,6 @@ img {
 /* Footer */
 
 footer {
-  background-color: black;
+  background-color: #191919;
   color: white;
 }
