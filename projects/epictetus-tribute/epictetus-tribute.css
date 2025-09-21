@@ -65,7 +65,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #f2f2f2;
   width: 100%;
   height: 50px;
 }
@@ -77,12 +77,13 @@ header ul li {
 }
 
 header ul li a {
-  color: #8f8f8f;
+  color: #6b6b6b;
   text-decoration: none;
 }
 
 header ul li a:hover {
-  color: #242424;
+  color: #e20000;
+  text-decoration: underline;
 }
 
 /* Main Content */
