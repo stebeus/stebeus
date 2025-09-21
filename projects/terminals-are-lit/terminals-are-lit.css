@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+	padding: 25px;	
+	background-color: lightgray;
+}
+
+main {
+	margin: 0 auto;
+	min-height: 85vh;
+	background-color: white;
+	width:65%;
+	padding:25px;	
+	border-radius: 5px;
+}
+
+h1, h2, p {
+	margin-bottom: 15px;
+	line-height: 1.5;
+}
+
+h1 {
+	text-transform: uppercase;
+
+}
+
