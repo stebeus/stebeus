@@ -7,18 +7,13 @@ body {
   display: flex;
   flex-direction: column;
   min-width: 100vh;
+  color: #242424;
   font-family: Merriweather Sans;
   font-size: 16px;
+  font-weight: 300;
+  line-height: 150%;
   /* Temporary attribute */
   background-color: #f0f0f0;
-}
-
-h1,
-h2,
-h3,
-p,
-li {
-  color: #242424;
 }
 
 h1,
@@ -28,34 +23,30 @@ h3 {
 }
 
 h1,
-.h1-subtitle {
-  text-align: center;
-}
-
-h1 {
-  font-size: 3rem;
-  text-transform: uppercase;
+h2 {
+  text-transform: capitalize;
 }
 
 h2,
 h3,
 p,
+ol,
 ul {
   margin-bottom: 15px;
 }
 
+h1,
+.h1-subtitle {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 120%;
+}
+
 h2 {
-  text-transform: capitalize;
-}
-
-p,
-li {
-  font-family: Merriweather Sans;
-}
-
-p,
-ul {
-  font-weight: 300;
+  font-size: 1.5rem;
 }
 
 a {
@@ -86,7 +77,6 @@ main {
   width: 50%;
   padding: 25px;
   background-color: #fff;
-  line-height: 1.5;
   border-radius: 5px;
 }
 
