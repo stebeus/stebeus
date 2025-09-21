@@ -143,6 +143,15 @@ main a:hover {
   color: #06e;
 }
 
+main hr {
+  margin: 0 auto;
+  margin-bottom: 25px;
+  border: 0;
+  max-width: 97%;
+  height: 1px;
+  background-color: #eee;
+}
+
 /* Footer */
 
 footer {
