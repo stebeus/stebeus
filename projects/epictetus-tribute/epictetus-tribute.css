@@ -75,10 +75,15 @@ header {
   background-color: #fff;
 }
 
-header ul li {
+header nav {
+  margin: 0 25px;
+}
+
+
+header nav ul li {
   display: inline;
   justify-content: center;
-  padding-left: 25px;
+  margin: 0 12.5px;
 }
 
 header ul li a {
@@ -152,7 +157,7 @@ footer {
 footer ul li {
   display: inline;
   justify-content: right;
-  padding-left: 15px;
+  margin-left: 15px;
 }
 
 footer .license,
