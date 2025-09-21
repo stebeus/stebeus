@@ -58,6 +58,7 @@ ul {
 }
 
 a {
+  transition: 0.15s all;
   text-decoration: none;
 }
 
