@@ -54,15 +54,7 @@ h3 {
 }
 
 a {
-  color: #00e;
-}
-
-a:visited {
-  color: #551a8b;
-}
-
-a:hover {
-  color: #06e;
+  text-decoration: none;
 }
 
 /* Header */
@@ -124,6 +116,19 @@ main ul {
 
 main ul {
   margin-left: 25px;
+}
+
+main a {
+  text-decoration: underline;
+  color: #00e;
+}
+
+main a:visited {
+  color: #551a8b;
+}
+
+main a:hover {
+  color: #06e;
 }
 
 /* Footer */
