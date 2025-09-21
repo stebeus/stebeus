@@ -8,6 +8,7 @@ body {
   flex-direction: column;
   min-width: 100vh;
   font-family: Merriweather Sans;
+  font-size: 16px;
   /* Temporary attribute */
   background-color: #f0f0f0;
 }
@@ -21,7 +22,8 @@ li {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: Merriweather Seriff;
 }
 
@@ -31,6 +33,7 @@ h1,
 }
 
 h1 {
+  font-size: 3rem;
   text-transform: uppercase;
 }
 
@@ -45,7 +48,6 @@ h2 {
   text-transform: capitalize;
 }
 
-h3,
 p,
 li {
   font-family: Merriweather Sans;
@@ -97,10 +99,6 @@ main ul {
   font-style: italic;
 }
 
-
-li::marker {
-  color: #ccc;
-}
 
 figure {
   display: flex;
