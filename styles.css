@@ -82,18 +82,20 @@ header nav {
 }
 
 header nav ul li {
-  display: inline;
-  justify-content: center;
+  display: inline-block;
   margin: 0 12.5px;
 }
 
 header ul li a {
-  color: #7a7a7a;
+  display: inline-block;
+  padding: 6px 12px;
+  color: #757575;
 }
 
 header ul li a:hover {
+  border-radius: 10px;
+  background-color: #eee;
   color: #191919;
-  text-decoration: underline;
 }
 
 /* Main Content */
