@@ -19,6 +19,8 @@ body {
   line-height: 1.5;
 }
 
+/* Typography */
+
 h1,
 h2 {
   text-transform: capitalize;
