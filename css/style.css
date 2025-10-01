@@ -75,6 +75,9 @@ a:hover {
 /* ===MAIN=== */
 
 main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
   margin: 1em auto;
   width: 65%;
   max-width: 75ch;
