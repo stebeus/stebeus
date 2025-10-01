@@ -24,6 +24,7 @@ body {
   min-height: 100vh;
   font-family: Arial, sans-serif;
   line-height: 1.5;
+  background-color: #ccc;
 }
 
 /* Typography */
@@ -51,6 +52,7 @@ main {
   margin: 1.25em auto;
   width: 65%;
   padding: 0 1.25em;
+  background-color: #fff;
 }
 
 /* ===FOOTER=== */
