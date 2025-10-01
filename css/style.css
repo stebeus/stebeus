@@ -45,6 +45,15 @@ h2 {
   font-size: 1.75rem;
 }
 
+a {
+  text-decoration: underline;
+  color: #00e;
+}
+
+a:visited {
+  color: #551A8B;
+}
+
 a:hover {
   color: rgb(107, 107, 255)
 }
