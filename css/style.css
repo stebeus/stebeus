@@ -7,12 +7,12 @@
 /* ===GLOBAL=== */
 
 :root {
-  --color-bg: oklch(.98 0 0);
-  --color-bgInvert: oklch(.1 0 0);
-  --color-txt: oklch(.05 0 0);
-  --color-txtMute: oklch(.3 0 0);
-  --color-txtInvert: oklch(.98 0 0);
-  --color-txtMuteInvert: oklch(.7 0 0);
+  --color-bg: oklch(98% 0 0);
+  --color-bgInvert: oklch(10% 0 0);
+  --color-txt: oklch(5% 0 0);
+  --color-txtMute: oklch(30% 0 0);
+  --color-txtInvert: oklch(98% 0 0);
+  --color-txtMuteInvert: oklch(7% 0 0);
   --color-primary: oklch(0 0 0);
   --color-secondary: oklch(0 0 0);
 }
