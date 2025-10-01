@@ -38,7 +38,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   font-family: Arial, sans-serif;
-  background-color: var(--clr-bg);
+  background-color: var(--color-bg);
   color: var(--color-txtMute)
 }
 
