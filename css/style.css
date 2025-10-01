@@ -61,7 +61,7 @@ h2 {
 
 a {
   text-decoration: underline;
-  color: var(--color-primary);
+  color: var(--color-txt);
 }
 
 a:visited {
