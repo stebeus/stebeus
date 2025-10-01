@@ -6,6 +6,12 @@
 
 /* ===GLOBAL=== */
 
+:root {
+  --clr-bg: oklch(.98 0 0);
+  --clr-txt: oklch(.05 0 0);
+  --clr-txt-mute: oklch(.3 0 0);
+}
+
 html {
   box-sizing: border-box;
 }
