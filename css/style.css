@@ -13,9 +13,9 @@
   --color-txtMute: oklch(30% 0 0);
   --color-txtInvert: oklch(98% 0 0);
   --color-txtMuteInvert: oklch(70% 0 0);
-  --color-primary: oklch(48% 0.23 263);
-  --color-primaryMute: oklch(20% 0.23 263);
-  --color-secondary: oklch(68% 0.15 59);
+  --color-primary: oklch(53% 0.2 265);
+  --color-primaryMute: oklch(23% 0.2 265);
+  --color-secondary: oklch(71% 0.16 57);
 }
 
 html {
