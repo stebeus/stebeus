@@ -60,3 +60,11 @@ footer p,
 footer a {
   font-size: 0.875rem;
 }
+
+footer a {
+  color: #aaa
+}
+
+footer a:hover {
+  color: #fff;
+}
