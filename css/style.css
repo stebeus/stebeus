@@ -30,6 +30,10 @@ h2 {
   font-size: 1.75rem;
 }
 
+a:hover {
+  color: rgb(107, 107, 255)
+}
+
 /* || Main */
 
 main {
