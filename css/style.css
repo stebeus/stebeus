@@ -38,7 +38,7 @@ a:hover {
   color: rgb(107, 107, 255)
 }
 
-/* || Main */
+/* ===MAIN=== */
 
 main {
   margin: 25px auto;
@@ -46,7 +46,7 @@ main {
   padding: 0 25px;
 }
 
-/* || Footer */
+/* ===FOOTER=== */
 
 footer {
   display: flex;
