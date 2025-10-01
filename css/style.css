@@ -70,7 +70,7 @@ footer ul {
   list-style: none;
 }
 
-footer p,
+footer small,
 footer a {
   font-size: 0.875rem;
 }
