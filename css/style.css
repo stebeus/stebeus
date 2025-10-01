@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font: 16px/1.5 Arial, sans-serif;
 }
 
 *,
@@ -14,7 +15,6 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  font: 16px/1.5 Arial, sans-serif
 }
 
 h1,
