@@ -60,15 +60,15 @@ h2 {
 
 a {
   text-decoration: underline;
-  color: #00e;
+  color: var(--color-primary);
 }
 
 a:visited {
-  color: #551A8B;
+  color: var(--color-primaryMute);
 }
 
 a:hover {
-  color: #06e;
+  color: var(--color-secondary);
 }
 
 /* ===MAIN=== */
