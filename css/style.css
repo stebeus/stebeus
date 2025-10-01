@@ -55,3 +55,8 @@ footer ul {
   gap: 1rem;
   list-style: none;
 }
+
+footer p,
+footer a {
+  font-size: 0.875rem;
+}
