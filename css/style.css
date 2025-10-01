@@ -14,9 +14,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
+  font: 16px/1.5 Arial, sans-serif
 }
 
 h1,
