@@ -51,6 +51,7 @@ a:hover {
 main {
   margin: 1em auto;
   width: 65%;
+  max-width: 75ch;
   min-height: 88vh;
   padding: 0 1.25em;
   background-color: #fff;
