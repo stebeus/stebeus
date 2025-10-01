@@ -48,9 +48,9 @@ a:hover {
 /* ===MAIN=== */
 
 main {
-  margin: 25px auto;
+  margin: 1.25em auto;
   width: 65%;
-  padding: 0 25px;
+  padding: 0 1.25em;
 }
 
 /* ===FOOTER=== */
