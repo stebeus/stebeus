@@ -7,12 +7,12 @@
 /* ===GLOBAL=== */
 
 :root {
-  --clr-bg: oklch(.98 0 0);
-  --clr-bg-secondary: oklch(.05 0 0);
-  --clr-txt: oklch(.05 0 0);
-  --clr-txt-mute: oklch(.3 0 0);
-  --clr-txt-secondary: oklch(.7 0 0);
-  --clr-txt-mute-seconcadry: oklch(.95 0 0);
+  --color-bg: oklch(.98 0 0);
+  --color-bg-secondary: oklch(.05 0 0);
+  --color-txt: oklch(.05 0 0);
+  --color-txt-mute: oklch(.3 0 0);
+  --color-txt-secondary: oklch(.7 0 0);
+  --color-txt-mute-secondary: oklch(.95 0 0);
 }
 
 html {
