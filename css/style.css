@@ -10,9 +10,9 @@
   --color-bg: oklch(.98 0 0);
   --color-bgInvert: oklch(.05 0 0);
   --color-txt: oklch(.05 0 0);
-  --color-txt-mute: oklch(.3 0 0);
+  --color-txtMute: oklch(.3 0 0);
   --color-txtInvert: oklch(.7 0 0);
-  --color-txt-muteInvert: oklch(.95 0 0);
+  --color-txtMuteInvert: oklch(.95 0 0);
   --color-primary: oklch(0 0 0);
   --color-secondary: oklch(0 0 0);
 }
