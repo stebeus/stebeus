@@ -51,3 +51,9 @@ footer {
   background-color: #000;
   color: #fff;
 }
+
+footer ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
