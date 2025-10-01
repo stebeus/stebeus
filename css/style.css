@@ -89,7 +89,7 @@ footer {
   margin-top: auto;
   padding: 1rem;
   background-color: var(--color-bgInvert);
-  color: var(--clr-txt-mute-seconcadry);
+  color: var(--color-txtMuteInvert);
 }
 
 footer ul {
