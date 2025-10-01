@@ -104,9 +104,9 @@ footer a {
 }
 
 footer a {
-  color: var(--clr-txt-mute-seconcadry)
+  color: var(--color-txtMuteInvert);
 }
 
 footer a:hover {
-  color: var(--clr-txt-secondary)
+  color: var(--color-txtInvert);
 }
