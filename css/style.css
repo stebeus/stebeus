@@ -103,7 +103,8 @@ footer a {
   font-size: 0.875rem;
 }
 
-footer a {
+footer a,
+footer a:visited {
   color: var(--color-txtMuteInvert);
 }
 
