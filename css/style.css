@@ -39,7 +39,7 @@ body {
   min-height: 100vh;
   font-family: Arial, sans-serif;
   background-color: var(--clr-bg);
-  color: var(--clr-txt-mute);
+  color: var(--color-txtMute)
 }
 
 /* Typography */
@@ -47,7 +47,7 @@ body {
 h1,
 h2 {
   text-transform: capitalize;
-  color: var(--clr-txt);
+  color: var(--color-txt);
 }
 
 h1 {
