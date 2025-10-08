@@ -95,6 +95,11 @@ footer {
   color: var(--color-txtMuteInvert);
 }
 
+.footer-right {
+  display: flex;
+  gap: 1rem;
+}
+
 footer ul {
   display: flex;
   gap: 1rem;
