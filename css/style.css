@@ -29,7 +29,7 @@
   }
 }
 
-.darkmode {
+body.darkmode {
   --color-bg: oklch(25% 0 0);
   --color-txt: oklch(98% 0 0);
   --color-txtMute: oklch(70% 0 0);
