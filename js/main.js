@@ -8,6 +8,10 @@ const body = document.querySelector('body');
 
 // On page load, check local storage and apply theme
 
+if (localStorage.getItem('darkmode') === true) {
+  body.classList.add('darkmode');
+}
+
 // Add click event listener to 'themeToggle' that toggles dark mode on the body
 themeToggle.addEventListener('click', (e) => {
   body.classList.toggle('darkmode');
