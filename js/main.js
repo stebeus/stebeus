@@ -7,7 +7,7 @@ const themeToggle = document.querySelector('#btn-theme');
 const body = document.querySelector('body');
 
 // On page load, check local storage and apply theme
-if (localStorage.getItem('darkmode') === true) {
+if (localStorage.getItem('darkmode') === 'true') {
   body.classList.add('darkmode');
 }
 
