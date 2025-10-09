@@ -5,13 +5,6 @@ const themeToggle = document.querySelector('#btn-theme');
 
 // Add a click event listener to it
 
-/* 
-WHEN user clicks btn-theme:
-  IF current theme is light THEN
-    add 'darkmode' class to body
-  ELSE
-    remove 'darkmode' class from body
-  ENDIF
-*/
+// Add click event listener to 'themeToggle' that toggles dark mode on the body
 
 // Store updated theme preference in local storage
