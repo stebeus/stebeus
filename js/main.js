@@ -15,6 +15,7 @@ if (localStorage.getItem('darkmode') === true) {
 // Add click event listener to 'themeToggle' that toggles dark mode on the body
 themeToggle.addEventListener('click', (e) => {
   body.classList.toggle('darkmode');
+  localStorage.setItem('darkmode', body.classList.contains('darkmode'));
 });
 
 // Store updated theme preference in local storage
