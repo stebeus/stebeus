@@ -8,7 +8,7 @@ const body = document.querySelector('body');
 
 // Add click event listener to 'themeToggle' that toggles dark mode on the body
 themeToggle.addEventListener('click', (e) => {
-  document.querySelector('body').classList.toggle('darkmode');
+  body.classList.toggle('darkmode');
 });
 
 // Store updated theme preference in local storage
