@@ -16,5 +16,3 @@ themeToggle.addEventListener('click', (e) => {
   body.classList.toggle('darkmode');
   localStorage.setItem('darkmode', body.classList.contains('darkmode'));
 });
-
-// Store updated theme preference in local storage
