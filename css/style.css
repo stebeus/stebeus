@@ -164,3 +164,15 @@ footer a:hover {
   color: var(--color-txtInvert);
   transition: .25s ease all;
 }
+
+#btn-theme svg:last-child {
+  display: none;
+}
+
+.darkmode #btn-theme svg:first-child {
+  display: none;
+}
+
+.darkmode #btn-theme svg:last-child {
+  display: block;
+}
