@@ -157,3 +157,9 @@ footer a:hover {
   justify-content: center;
   align-items: center;
 }
+
+#btn-theme:hover {
+  background-color: var(--color-primary);
+  color: var(--color-txtInvert);
+  transition: .25s ease all;
+}
