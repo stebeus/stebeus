@@ -183,8 +183,8 @@ footer a:hover {
 
   border: 1px solid var(--border);
   border-radius: 50%;
-  width: 1.5rem;
-  height: 1.5rem;
+  width: var(--box-size);
+  height: var(--box-size);
   padding: 0;
   background-color: var(--bg);
 }
