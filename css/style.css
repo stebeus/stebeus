@@ -17,6 +17,13 @@
   --link-visited: oklch(37.8% 0.17 302);
   --link-active: oklch(62.8% 0.26 29);
 
+  /* typography */
+  --ff: sans-serif;
+  --ff-h1: bold 2rem/1.5em var(--ff);
+  --ff-h2: bold 1.5rem/1.5em var(--ff);
+  --ff-h3: bold 1rem/1.5em var(--ff);
+  --ff-p: 1rem/1.5em var(--ff);
+
   /* hover basis */
   --hover-color: black;
   --hover-amount: 10%;
