@@ -142,8 +142,6 @@ footer {
   justify-content: space-between;
   margin-top: auto;
   padding: 1rem;
-  background-color: var();
-  color: var();
 }
 
 .footer-right {
