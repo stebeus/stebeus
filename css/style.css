@@ -114,7 +114,6 @@ h2 {
 
 /* Links */
 a {
-  transition: 0.25s ease all;
   color: var(--color-txt);
 }
 
