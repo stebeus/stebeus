@@ -194,7 +194,7 @@ footer a:hover {
 }
 
 #theme-switch:hover {
-  transition: .25s ease all;
+  transition: background-color .15s ease;
   background-color: var(--bg-hover);
 }
 
