@@ -6,7 +6,6 @@ CSS DIRECTORY
 */
 
 /* || GLOBAL */
-
 :root {
   /* colors */
   --bg: oklch(100% 0 0);
@@ -80,7 +79,6 @@ body {
 }
 
 /* Typography */
-
 h1,
 h2 {
   text-transform: capitalize;
@@ -96,7 +94,6 @@ h2 {
 }
 
 /* Links */
-
 a {
   transition: 0.25s ease all;
   color: var(--color-txt);
@@ -111,7 +108,6 @@ a:hover {
 }
 
 /* || MAIN */
-
 main {
   display: flex;
   flex-direction: column;
@@ -123,7 +119,6 @@ main {
 }
 
 /* || FOOTER */
-
 footer {
   display: flex;
   justify-content: space-between;
