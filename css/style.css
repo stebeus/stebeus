@@ -17,13 +17,16 @@ CSS DIRECTORY
   --link-visited: oklch(37.8% 0.17 302);
   --link-active: oklch(62.8% 0.26 29);
 
-
   /* hover basis */
   --hover-color: black;
   --hover-amount: 10%;
   --hover-color-link: white;
   --hover-amount-link: 30%;
 
+  /* hover elements */
+  --bg-hover: color-mix(in srgb, var(--bg), var(--hover-color) var(--hover-amount));
+  --link-hover: color-mix(in srgb, var(--link), var(--hover-color-link) var(--hover-amount-link));
+  --link-visited-hover: color-mix(in srgb, var(--link-visited), var(--hover-color-link) var(--hover-amount-link));
 }
 
 /* 
