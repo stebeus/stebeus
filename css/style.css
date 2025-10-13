@@ -186,7 +186,6 @@ footer a:hover {
 #btn-theme:hover {
   transition: .25s ease all;
   background-color: var(--bg-hover);
-  color: var();
 }
 
 #btn-theme svg:last-child {
