@@ -58,6 +58,8 @@ body.darkmode {
   --color-secondary: oklch(71% 0.16)
 }
 
+/* --- Reset --- */
+
 *,
 *::before,
 *::after {
