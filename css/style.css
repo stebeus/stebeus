@@ -170,7 +170,7 @@ footer a:hover {
   color: var(--txt);
 }
 
-#btn-theme {
+#theme-switch {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -183,19 +183,19 @@ footer a:hover {
   background-color: var(--bg);
 }
 
-#btn-theme:hover {
+#theme-switch:hover {
   transition: .25s ease all;
   background-color: var(--bg-hover);
 }
 
-#btn-theme svg:last-child {
+#theme-switch svg:last-child {
   display: none;
 }
 
-.darkmode #btn-theme svg:first-child {
+.darkmode #theme-switch svg:first-child {
   display: none;
 }
 
-.darkmode #btn-theme svg:last-child {
+.darkmode #theme-switch svg:last-child {
   display: block;
 }
