@@ -82,7 +82,6 @@ body {
 h1,
 h2 {
   text-transform: capitalize;
-  color: var(--color-txt);
 }
 
 h1 {
