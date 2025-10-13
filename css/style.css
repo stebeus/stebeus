@@ -193,6 +193,11 @@ footer a:hover {
   color: var(--txt);
 }
 
+#theme-switch .icon {
+  width: var(--box-size);
+  height: var(--box-size);
+}
+
 #theme-switch:hover {
   transition: background-color .15s ease;
   background-color: var(--bg-hover);
