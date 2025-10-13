@@ -33,22 +33,6 @@
   --box-size: 2.5rem;
 }
 
-/* 
-! This breaks the JS manual toggle when the OS is in dark mode, because it unables the switch to light mode.
-TODO: Utilize a function-based JS manual toggle algorithm
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-bg: oklch(25% 0 0);
-    --color-txt: oklch(98% 0 0);
-    --color-txtMute: oklch(70% 0 0);
-    --color-primary: oklch(53% 0.2 265);
-    --color-primaryMute: oklch(23% 0.2 265);
-    --color-secondary: oklch(71% 0.16)
-  }
-}
-*/
-
 body.darkmode {
   --color-bg: oklch(25% 0 0);
   --color-txt: oklch(98% 0 0);
