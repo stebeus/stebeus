@@ -1,11 +1,13 @@
-/* 
-CSS DIRECTORY
-  1. GLOBAL
-  2. MAIN
-  3. FOOTER 
-*/
+/** 
+ * CSS DIRECTORY
+ *     1. GLOBAL 
+ *     2. MAIN
+ *     3. FOOTER
+ */
 
-/* || GLOBAL */
+
+/* ========== GLOBAL ========== */
+
 :root {
   /* colors */
   --bg: oklch(100% 0 0);
@@ -125,7 +127,8 @@ a:hover {
   color: var(--link-hover);
 }
 
-/* || MAIN */
+/* ========== MAIN ========== */
+
 main {
   display: flex;
   flex-direction: column;
@@ -136,7 +139,8 @@ main {
   padding: .5em 1.75em;
 }
 
-/* || FOOTER */
+/* ========== FOOTER ========== */
+
 footer {
   display: flex;
   justify-content: space-between;
