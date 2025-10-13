@@ -33,13 +33,19 @@
   --box-size: 2.5rem;
 }
 
-body.darkmode {
-  --color-bg: oklch(25% 0 0);
-  --color-txt: oklch(98% 0 0);
-  --color-txtMute: oklch(70% 0 0);
-  --color-primary: oklch(53% 0.2 265);
-  --color-primaryMute: oklch(23% 0.2 265);
-  --color-secondary: oklch(71% 0.16)
+/* Dark theme */
+[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: oklch(20% 0 0);
+  --border: oklch(45% 0 0);
+  --txt: oklch(95% 0 0);
+  --txt-muted: oklch(70% 0 0);
+  --link: oklch(73.9% .14 282);
+  --link-visited: oklch(80.1% .10 308);
+  --link-active: oklch(79.8% 0.12 20);
+
+  --hover-color: white;
+  --hover-amount: 15%;
 }
 
 /* --- Reset --- */
