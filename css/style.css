@@ -74,8 +74,8 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  font-family: "Open Sans", Arial, sans-serif;
   background-color: var(--color-bg);
+  font-family: "Open Sans", Arial, sans-serif;
   color: var(--color-txtMute)
 }
 
@@ -151,8 +151,8 @@ footer a {
 
 footer a,
 footer a:visited {
-  color: var(--color-txtMuteInvert);
   text-decoration: none;
+  color: var(--color-txtMuteInvert);
 }
 
 footer a:hover {
@@ -163,19 +163,19 @@ footer a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: .25s ease all;
   border: 0;
   border-radius: 50%;
-  height: 1.5rem;
   width: 1.5rem;
+  height: 1.5rem;
   padding: 0;
   background-color: var(--color-bg);
-  transition: .25s ease all;
 }
 
 #btn-theme:hover {
+  transition: .25s ease all;
   background-color: var(--color-primary);
   color: var(--color-txtInvert);
-  transition: .25s ease all;
 }
 
 #btn-theme svg:last-child {
