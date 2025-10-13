@@ -16,6 +16,14 @@ CSS DIRECTORY
   --link: oklch(42.9% .30 264);
   --link-visited: oklch(37.8% 0.17 302);
   --link-active: oklch(62.8% 0.26 29);
+
+
+  /* hover basis */
+  --hover-color: black;
+  --hover-amount: 10%;
+  --hover-color-link: white;
+  --hover-amount-link: 30%;
+
 }
 
 /* 
