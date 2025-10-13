@@ -1,10 +1,10 @@
 /* CSS DIRECTORY
-  1. =GLOBAL
-  2. =MAIN
-  3. =FOOTER 
+  1. GLOBAL
+  2. MAIN
+  3. FOOTER 
 */
 
-/* ===GLOBAL=== */
+/* || GLOBAL */
 
 :root {
   --color-bg: oklch(98% 0 0);
@@ -97,7 +97,7 @@ a:hover {
   color: var(--color-primary);
 }
 
-/* ===MAIN=== */
+/* || MAIN */
 
 main {
   display: flex;
@@ -109,7 +109,7 @@ main {
   padding: .5em 1.75em;
 }
 
-/* ===FOOTER=== */
+/* || FOOTER */
 
 footer {
   display: flex;
