@@ -8,15 +8,14 @@ CSS DIRECTORY
 /* || GLOBAL */
 
 :root {
-  --color-bg: oklch(98% 0 0);
-  --color-bgInvert: oklch(10% 0 0);
-  --color-txt: oklch(7% 0 0);
-  --color-txtMute: oklch(30% 0 0);
-  --color-txtInvert: oklch(98% 0 0);
-  --color-txtMuteInvert: oklch(70% 0 0);
-  --color-primary: oklch(53% 0.2 265);
-  --color-primaryMute: oklch(23% 0.2 265);
-  --color-secondary: oklch(71% 0.16 57);
+  /* colors */
+  --bg: oklch(100% 0 0);
+  --border: oklch(85% 0 0);
+  --txt: oklch(5% 0 0);
+  --txt-muted: oklch(30% 0 0);
+  --link: oklch(42.9% .30 264);
+  --link-visited: oklch(37.8% 0.17 302);
+  --link-active: oklch(62.8% 0.26 29);
 }
 
 /* 
