@@ -27,6 +27,9 @@ CSS DIRECTORY
   --bg-hover: color-mix(in srgb, var(--bg), var(--hover-color) var(--hover-amount));
   --link-hover: color-mix(in srgb, var(--link), var(--hover-color-link) var(--hover-amount-link));
   --link-visited-hover: color-mix(in srgb, var(--link-visited), var(--hover-color-link) var(--hover-amount-link));
+
+  /* proportions */
+  --box-size: 2.5rem;
 }
 
 /* 
