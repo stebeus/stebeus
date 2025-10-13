@@ -78,6 +78,15 @@ body {
   color: var(--color-txtMute)
 }
 
+/* Media */
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
 /* Typography */
 h1,
 h2,
