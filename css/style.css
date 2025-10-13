@@ -235,5 +235,6 @@ footer a:active {
 footer a:hover,
 footer a:visited:hover,
 footer a:active:hover {
+  text-decoration: underline;
   color: var(--txt);
 }
