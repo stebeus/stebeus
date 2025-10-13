@@ -103,11 +103,18 @@ h2 {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font: var(--ff-h1);
 }
 
 h2 {
-  font-size: 1.75rem;
+  font: var(--ff-h2)
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font: var(--ff-h3);
 }
 
 /* Links */
