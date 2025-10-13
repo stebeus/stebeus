@@ -189,6 +189,8 @@ footer a:hover {
 
   background-color: var(--bg);
   cursor: pointer;
+
+  color: var(--txt);
 }
 
 #theme-switch:hover {
