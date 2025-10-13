@@ -226,11 +226,14 @@ footer a {
 }
 
 footer a,
-footer a:visited {
+footer a:visited,
+footer a:active {
   text-decoration: none;
   color: var(--txt-muted);
 }
 
-footer a:hover {
+footer a:hover,
+footer a:visited:hover,
+footer a:active:hover {
   color: var(--txt);
 }
