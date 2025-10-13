@@ -171,6 +171,10 @@ footer a:hover {
 }
 
 #theme-switch {
+  position: fixed;
+  top: .25rem;
+  right: .25rem;
+
   display: flex;
   justify-content: center;
   align-items: center;
