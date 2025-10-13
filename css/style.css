@@ -180,12 +180,12 @@ footer a:hover {
   width: 1.5rem;
   height: 1.5rem;
   padding: 0;
-  background-color: var();
+  background-color: var(--bg);
 }
 
 #btn-theme:hover {
   transition: .25s ease all;
-  background-color: var();
+  background-color: var(--bg-hover);
   color: var();
 }
 
