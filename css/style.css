@@ -171,15 +171,20 @@ a:active:hover {
   background-color: var(--bg-hover);
 }
 
-#theme-switch svg:last-child {
+/* Icon visibility state */
+.icon.dark-theme {
+  display: block;
+}
+
+.icon.light-theme {
   display: none;
 }
 
-.darkmode #theme-switch svg:first-child {
+[data-theme="dark"] .icon.dark-theme {
   display: none;
 }
 
-.darkmode #theme-switch svg:last-child {
+[data-theme="dark"] .icon.light-theme {
   display: block;
 }
 
