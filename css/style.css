@@ -5,7 +5,6 @@
  *     3. FOOTER
  */
 
-
 /* ========== GLOBAL ========== */
 
 :root {
@@ -22,7 +21,7 @@
   --hover-color: black;
   --hover-amount: 10%;
   --hover-color-link: white;
-  --hover-amount-link: 30%;
+  --hover-amount-link: 35%;
 
   /* hover elements */
   --bg-hover: color-mix(in srgb, var(--bg), var(--hover-color) var(--hover-amount));
