@@ -1,4 +1,5 @@
-/* CSS DIRECTORY
+/* 
+CSS DIRECTORY
   1. GLOBAL
   2. MAIN
   3. FOOTER 
@@ -83,6 +84,8 @@ h1 {
 h2 {
   font-size: 1.75rem;
 }
+
+/* Links */
 
 a {
   transition: 0.25s ease all;
