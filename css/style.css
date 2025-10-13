@@ -125,9 +125,27 @@ a:visited {
   color: var(--link-visited);
 }
 
+a:focus-visible {
+  border-radius: 1px;
+  outline: 2px solid var(--txt);
+}
+
+a:active {
+  color: var(--link-active);
+}
+
 a:hover {
   color: var(--link-hover);
 }
+
+a:visited:hover {
+  color: var(--link-visited-hover);
+}
+
+a:active:hover {
+  color: var(--link-active);
+}
+
 
 /* ========== MAIN ========== */
 
