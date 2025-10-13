@@ -74,7 +74,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background-color: var(--bg);
-  font-family: "Open Sans", Arial, sans-serif;
+  font: var(--ff-p);
   color: var(--txt-muted)
 }
 
@@ -94,7 +94,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: bold;
   color: var(--txt);
 }
 
