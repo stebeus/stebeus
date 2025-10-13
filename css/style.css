@@ -13,6 +13,7 @@
   --border: oklch(85% 0 0);
   --txt: oklch(5% 0 0);
   --txt-muted: oklch(30% 0 0);
+  --txt-footer: oklch(50% 0 0);
   --link: oklch(42.9% .30 264);
   --link-visited: oklch(37.8% 0.17 302);
   --link-active: oklch(62.8% 0.26 29);
@@ -218,6 +219,7 @@ footer {
   justify-content: space-between;
   margin-top: auto;
   padding: 1rem;
+  color: var(--txt-footer);
 }
 
 footer ul {
@@ -235,7 +237,7 @@ footer a,
 footer a:visited,
 footer a:active {
   text-decoration: none;
-  color: var(--txt-muted);
+  color: var(--txt-footer);
 }
 
 footer a:hover,
