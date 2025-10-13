@@ -146,53 +146,6 @@ a:active:hover {
   color: var(--link-active);
 }
 
-/* ========== MAIN ========== */
-
-main {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  margin: 1em auto;
-  width: 65%;
-  max-width: 75ch;
-  padding: .5em 1.75em;
-}
-
-/* ========== FOOTER ========== */
-
-footer {
-  display: flex;
-  justify-content: space-between;
-  margin-top: auto;
-  padding: 1rem;
-}
-
-.footer-right {
-  display: flex;
-  gap: 1rem;
-}
-
-footer ul {
-  display: flex;
-  gap: 1rem;
-  list-style: none;
-}
-
-footer small,
-footer a {
-  font-size: 0.875rem;
-}
-
-footer a,
-footer a:visited {
-  text-decoration: none;
-  color: var(--txt-muted);
-}
-
-footer a:hover {
-  color: var(--txt);
-}
-
 /* --- Theme Switch Button --- */
 
 #theme-switch {
@@ -238,4 +191,51 @@ footer a:hover {
 
 .darkmode #theme-switch svg:last-child {
   display: block;
+}
+
+/* ========== MAIN ========== */
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1em auto;
+  width: 65%;
+  max-width: 75ch;
+  padding: .5em 1.75em;
+}
+
+/* ========== FOOTER ========== */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  padding: 1rem;
+}
+
+.footer-right {
+  display: flex;
+  gap: 1rem;
+}
+
+footer ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+footer small,
+footer a {
+  font-size: 0.875rem;
+}
+
+footer a,
+footer a:visited {
+  text-decoration: none;
+  color: var(--txt-muted);
+}
+
+footer a:hover {
+  color: var(--txt);
 }
