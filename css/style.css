@@ -73,10 +73,10 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: var(--color-bg);
+  background-color: var(--bg);
   font-family: "Open Sans", Arial, sans-serif;
   line-height: 1.5;
-  color: var(--color-txtMute)
+  color: var(--txt-muted)
 }
 
 /* Media */
@@ -114,15 +114,15 @@ h2 {
 
 /* Links */
 a {
-  color: var(--color-txt);
+  color: var(--link);
 }
 
 a:visited {
-  color: var(--color-primaryMute);
+  color: var(--link-visited);
 }
 
 a:hover {
-  color: var(--color-primary);
+  color: var(--link-hover);
 }
 
 /* || MAIN */
@@ -142,8 +142,8 @@ footer {
   justify-content: space-between;
   margin-top: auto;
   padding: 1rem;
-  background-color: var(--color-bgInvert);
-  color: var(--color-txtMuteInvert);
+  background-color: var();
+  color: var();
 }
 
 .footer-right {
@@ -165,11 +165,11 @@ footer a {
 footer a,
 footer a:visited {
   text-decoration: none;
-  color: var(--color-txtMuteInvert);
+  color: var(--txt-muted);
 }
 
 footer a:hover {
-  color: var(--color-txtInvert);
+  color: var(--txt);
 }
 
 #btn-theme {
@@ -182,13 +182,13 @@ footer a:hover {
   width: 1.5rem;
   height: 1.5rem;
   padding: 0;
-  background-color: var(--color-bg);
+  background-color: var();
 }
 
 #btn-theme:hover {
   transition: .25s ease all;
-  background-color: var(--color-primary);
-  color: var(--color-txtInvert);
+  background-color: var();
+  color: var();
 }
 
 #btn-theme svg:last-child {
