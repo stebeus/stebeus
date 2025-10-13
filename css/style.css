@@ -214,11 +214,6 @@ footer {
   padding: 1rem;
 }
 
-.footer-right {
-  display: flex;
-  gap: 1rem;
-}
-
 footer ul {
   display: flex;
   gap: 1rem;
