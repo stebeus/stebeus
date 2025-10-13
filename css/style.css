@@ -57,20 +57,17 @@ body.darkmode {
   --color-secondary: oklch(71% 0.16)
 }
 
-html {
-  box-sizing: border-box;
-}
-
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 * {
   margin: 0;
   padding: 0;
-  line-height: 1.5;
+  font: inherit;
+  /* outline: 1px solid red; */
 }
 
 body {
