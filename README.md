@@ -10,8 +10,9 @@ Currently, I am doing The Odin Project's _[Foundations](https://www.theodinproje
 
 - [x] HTML
 - [x] CSS
-- [ ] JS
+- [x] JS
 
 ## Project List
 
 It is under W.I.P. for now...
+
