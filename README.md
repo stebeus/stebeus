@@ -7,3 +7,9 @@ I can only contribute to the web because of [The Odin Project](https://www.theod
 ## 🛠️ Tech stack
 
 ![Skills](https://go-skill-icons.vercel.app/api/icons?i=ts,js,html,css,nodejs,postgresql,hono,express,docker,react,tailwindcss)
+
+## 📊 Stats
+
+![GitHub stats](https://github-stats-extended.vercel.app/api?username=stebeus&show_icons=true&include_all_commits=true&theme_light=light_github&theme_dark=dark_github)
+
+![Top languages](https://github-stats-extended.vercel.app/api/top-langs?username=stebeus&layout=compact&theme_light=light_github&theme_dark=dark_github)
