@@ -1,0 +1,73 @@
+/* CSS DIRECTORY
+	1. DOCUMENT
+	2. FORMS
+	3. MEDIA
+	4. TYPOGRAPHY
+*/
+
+/* || DOCUMENT */
+
+*,
+::after,
+::backdrop,
+::before,
+::file-selector-button {
+	box-sizing: border-box;
+}
+
+html {
+	color-scheme: dark light;
+}
+
+body {
+	min-block-size: 100svb;
+}
+
+/* || FORMS */
+
+::file-selector-button,
+button,
+input,
+select,
+area {
+	font: inherit;
+}
+
+/* || MEDIA */
+
+audio,
+canvas,
+iframe,
+img,
+picture,
+svg,
+video {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+/* || TYPOGRAPHY */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	overflow-wrap: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-wrap: balance;
+}
+
+p {
+	text-wrap: pretty;
+}
