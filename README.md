@@ -4,7 +4,7 @@ I'm a self-taught backend developer who strives to enhance the web, by improving
 
 I can only contribute to the web because of [The Odin Project](https://www.theodinproject.com/): they provided a clear roadmap and exhausted me to think, research, troubleshoot, and seek for community help independently, teaching me to trade off decisions when developing software.
 
-## 🛠️ Languages & Technologies
+## 🛠️ Tech stack
 
 ![Static Badge](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
 ![Static Badge](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
