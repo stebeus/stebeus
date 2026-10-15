@@ -6,7 +6,4 @@ I can only contribute to the web because of [The Odin Project](https://www.theod
 
 ## 🛠️ Tech stack
 
-![Static Badge](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
-![Static Badge](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![Static Badge](https://img.shields.io/badge/CSS-663399?logo=css&logoColor=white)
-![Static Badge](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white)
+![Skills](https://go-skill-icons.vercel.app/api/icons?i=ts,js,html,css,nodejs,postgresql,hono,express,docker,react,tailwindcss)
