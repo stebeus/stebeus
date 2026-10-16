@@ -19,8 +19,9 @@ html {
 	color-scheme: dark light;
 }
 
-body {
+#root {
 	min-block-size: 100svb;
+	isolation: isolate;
 }
 
 /* || FORMS */
