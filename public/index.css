@@ -81,3 +81,90 @@
 		color: var(--color-content);
 	}
 }
+
+@layer components {
+	@scope (.avatar) {
+		:scope {
+			border: var(--border);
+			border-radius: 100%;
+		}
+	}
+
+	@scope (.card) {
+		:scope {
+			padding-inline: var(--size-m);
+			border: var(--border);
+			border-radius: var(--size-2xs);
+		}
+
+		a:hover::before {
+			padding-right: var(--size-xs);
+			color: var(--color-accent);
+			content: '>';
+		}
+	}
+
+	@scope (.error) {
+		:scope {
+			text-align: center;
+		}
+	}
+
+	@scope (.list) {
+		:scope {
+			display: flex;
+			gap: var(--size-s);
+			padding: 0;
+			list-style: '';
+		}
+
+		:where(main :scope) {
+			flex-direction: column;
+		}
+	}
+
+	@scope (.loader) {
+		@keyframes dots {
+			from,
+			to {
+				content: '';
+			}
+
+			25% {
+				content: '.';
+			}
+
+			50% {
+				content: '..';
+			}
+
+			75% {
+				content: '...';
+			}
+		}
+
+		:scope::after {
+			content: '';
+			animation: dots 1500ms steps(4, jump-none) infinite;
+		}
+	}
+
+	@scope (header) {
+		:scope {
+			justify-items: center;
+		}
+
+		p {
+			max-width: 55ch;
+			text-align: center;
+		}
+
+		.icon {
+			transition: transform 750ms;
+
+			&:hover {
+				transform: rotate(1turn);
+			}
+		}
+	}
+}
