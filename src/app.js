@@ -15,7 +15,7 @@ export const App = async () => {
 
 		return `
 			<header>
-				<img width="128" height="128" src="${profile.avatar_url}" alt="Avatar">
+				<img class="avatar" width="128" height="128" src="${profile.avatar_url}" alt="Avatar">
 				<h1>${profile.name}</h1>
 				<p>${profile.bio}</p>
 				${List({
@@ -40,7 +40,7 @@ export const App = async () => {
 		`;
 	} catch ({ message }) {
 		return `
-      <p>${message}</p>
+      <p class="error">${message}</p>
       <button type="button" onclick="window.location.reload(true)">Reload</button>
     `;
 	}
