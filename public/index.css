@@ -37,3 +37,47 @@
 		--color-contentMuted: oklch(from var(--color-content) calc(l + 0.3) c h);
 	}
 }
+
+@layer base {
+	body {
+		margin: var(--size-xs);
+		font-family: 'Source Code Pro', monospace;
+		color: var(--color-contentMuted);
+		background-color: var(--color-base);
+	}
+
+	#root {
+		justify-items: center;
+	}
+
+	a {
+		color: var(--color-content);
+		text-decoration-color: var(--color-accent);
+		text-underline-offset: 2px;
+	}
+
+	button,
+	h3 {
+		font-weight: 600;
+	}
+
+	button {
+		display: flex;
+		padding: var(--size-xs) var(--size-m);
+		color: var(--color-base);
+		cursor: pointer;
+		background-color: var(--color-content);
+		border: none;
+		border-radius: var(--size-2xs);
+
+		&:hover {
+			background-color: var(--color-accent);
+		}
+	}
+
+	h1,
+	h2,
+	h3 {
+		color: var(--color-content);
+	}
+}
