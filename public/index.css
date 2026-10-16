@@ -1,1 +1,3 @@
 @layer reset, base, components;
+
+@import url('reset.css') layer(reset);
