@@ -8,9 +8,9 @@
 /* || DOCUMENT */
 
 *,
+::before,
 ::after,
 ::backdrop,
-::before,
 ::file-selector-button {
 	box-sizing: border-box;
 }
